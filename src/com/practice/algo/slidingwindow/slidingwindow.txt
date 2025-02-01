@@ -1,0 +1,20 @@
+How to recognize SL problem?
+**Contigous
+**Sequential
+
+-It has sequential iterations
+for eg. string, array, LL
+
+-Some constraint
+min, max, longest, shortest, contained.
+
+Mainly 3 types:
+1. fixed length variant
+eg. max sub array of size k
+
+2. dynamic variant
+eg. min subarray having sum >= k
+
+3. dynamic variant with auxiliary Data structure (map, set, array etc.)
+eg. longest substring no more than K distinct character
+

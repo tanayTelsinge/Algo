@@ -1,0 +1,13 @@
+Subset:
+
+- Permutations and combinations.
+
+- Subset => non adjacent collection.
+
+eg. [3, 5, 9] -> [3] , [3,5], [3,9], [3,5,9], [5,9], [5], [9]
+
+eg. "abc" -> a, b, c, ab, ac, bc, abc
+
+- Use processed and unprocessed approach or (take it, skip it).
+
+subset is for string, subsequence is for array.
