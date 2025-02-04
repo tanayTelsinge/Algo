@@ -4,12 +4,6 @@ package com.practice.algo.LL;
  * This class represents a linked list and provides methods 
  * to find the nth node from the end of the list.
  * 
- * Time Complexity: O(n) where n is the length of linked list
- * - One pass through the list with two pointers
- * 
- * Space Complexity: O(1)
- * - Only uses two pointers regardless of input size
- * 
  * Intuition -> Two pointers, gap between fast and slow pointer is n.
  * 
  * Why it works -> imagine a bangle on rod, if its 2 size thick fit from front, it will fit from back as well of same size.
@@ -47,6 +41,26 @@ public class FindNthFromEndLL {
     System.out.println(findNthFromEnd(head, 2));
   }
 
+  public static void deleteNthFromEnd(ListNode head, int n) {
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    ListNode slow = dummy;
+    ListNode fast = dummy;
+
+    // Move the fast pointer n nodes ahead
+    for (int i = 0; i <= n; i++) {
+      fast = fast.next;
+    }
+
+    // Move both pointers until the fast pointer reaches the end
+    while (fast != null) {
+      slow = slow.next;
+      fast = fast.next;
+    }
+
+    // Delete the nth node from the end
+    slow.next = slow.next.next;
+  }
   public static int findNthFromEnd(ListNode head, int n) {
     ListNode slow = head;
     ListNode fast = head;

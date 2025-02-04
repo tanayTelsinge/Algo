@@ -46,6 +46,9 @@ public class MergeTwoLists {
         list2 = list2.next;
       }
     }
+
+    if(list1 != null) head.next = list1;
+    if(list2 != null) head.next = list2;
     return list3.next;
   }
   
