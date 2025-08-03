@@ -1,0 +1,11 @@
+
+- Why Is the Bottom-Right Cell Important?
+Let’s say:
+You have 4 items, Your bag can hold up to 7 kg
+
+The bottom row is: "I can use all 4 items"
+The rightmost column is: "The bag can carry up to 7 kg"
+
+So the bottom-right cell answers:
+“What’s the maximum profit I can get by choosing from all items, and using up to full capacity of the bag?”
+That’s exactly what the original problem is asking.

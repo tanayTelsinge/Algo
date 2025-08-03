@@ -1,0 +1,16 @@
+- Permutation - arrangement in specific order
+- n! / (n - r)!
+- nPr
+- eg. How many ways can 3 people (ABC) be arranged in a line - 6.
+- ABC, ACB, BAC, BCA, CAB, CBA
+
+- Combination - arrangement without any order.
+- n! / r! * (n - r)!
+- nCr
+- How many ways can you choose 2 people from group of 3 people (ABC) - 3
+- AB, AC, BC
+
+
+***
+- 0! and 1! is 1.
+- if r > n , its 0, because we cannot arrange more members for limited ones.

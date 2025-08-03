@@ -1,0 +1,7 @@
+Each company may have slight variations:
+
+Google: Loves graph algorithms, dynamic programming, and probability-based problems.
+Amazon: Focuses on real-world applications (e.g., arrays, heaps) and leadership principles.
+Meta: Emphasizes tree traversals, graph problems, and practical system design.
+Apple: Often includes binary trees and optimization problems.
+Netflix: May lean toward system design and streaming-related algorithms.
